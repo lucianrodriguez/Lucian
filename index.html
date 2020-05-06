@@ -6,7 +6,7 @@
 <style>
 .navbar {
   overflow: hidden;
-  background-color: #69;
+  background-color: #269;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,7 +29,7 @@
   font-size: 19px;  
   border: none;
   outline: none;
-  color: brown0;
+  color: brown;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -88,13 +88,10 @@
 <p>Click on the "Dropdown" link to see the dropdown menu.</p>
 
 <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Close the dropdown if the user clicks outside of it
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
   var myDropdown = document.getElementById("myDropdown");
